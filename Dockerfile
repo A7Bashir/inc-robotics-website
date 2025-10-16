@@ -22,10 +22,10 @@ RUN chown -R nodejs:nodejs /app
 USER nodejs
 
 # Expose port
-EXPOSE 8080
+EXPOSE 5000
 
 # Set environment variable
-ENV PORT=8080
+ENV PORT=5000
 
 # Start the application
 CMD ["node", "server.js"]
